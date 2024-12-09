@@ -1,7 +1,7 @@
 So about 2.5 years ago I found a singular reddit post mentioning that the 4500 drive cages could be flipped. I decided thats a great idea and to do it. It was a bit more involved than what was stated, but I figured it out. I decided to get another server in 2024 and wanted to do the exact same thing. This time, I decided to make a guide so others could reproduce this cost saving hack.
 
 
-![[Pasted image 20241208163145.png]]
+![Pasted image 20241208163145.png]
 
 The below instructions require a screwdriver (Phillips) and a pair of pliers (if you choose the pliers route). Note: You will need a long thin driver to reach some fan screws on the front of the case.
 ![[IMG_20241207_165158_919.jpg]]
