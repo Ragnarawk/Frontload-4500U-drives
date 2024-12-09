@@ -15,7 +15,7 @@ Remove all fans and internal fan bracket:
 
 ![alt text](https://github.com/Ragnarawk/Frontload-4500U-drives/blob/main/IMG_20241207_154143_397.jpg?raw=true)
 
-I inserted a couple of dead HDD's to show original orientation compared to new orientation. Note the purple tabs, these are what you squeeze/pull to remove HDD's, and are whick 'click' in to secure the drives in the bays. Note: There are some small screws (circled in red) needing to be removed. After flipping the cages, the holes dont line up to add them back, I haven't had any issues with this as the cages snap into place. 
+I inserted a couple of dead HDD's to show original orientation compared to new orientation. Note the purple tabs, these are what you squeeze/pull to remove HDD's, and are which 'click' in to secure the drives in the bays. Note: There are some small screws (circled in red) needing to be removed. After flipping the cages, the holes dont line up to add them back, I haven't had any issues with this as the cages snap into place. 
 The green circle is one of the 'buttons' you need to press to remove each cage, each cage has two buttons to depress at the same time. This can be fiddly, good luck.
 
 ![alt text](https://github.com/Ragnarawk/Frontload-4500U-drives/blob/main/IMG_20241207_160239_6272.jpg?raw=true)
