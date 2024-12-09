@@ -1,54 +1,58 @@
-<header>
+So about 2.5 years ago I found a singular reddit post mentioning that the 4500 drive cages could be flipped. I decided thats a great idea and to do it. It was a bit more involved than what was stated, but I figured it out. I decided to get another server in 2024 and wanted to do the exact same thing. This time, I decided to make a guide so others could reproduce this cost saving hack.
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
 
-# GitHub Pages
+![[Pasted image 20241208163145.png]]
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+The below instructions require a screwdriver (Phillips) and a pair of pliers (if you choose the pliers route). Note: You will need a long thin driver to reach some fan screws on the front of the case.
+![[IMG_20241207_165158_919.jpg]]
 
-</header>
 
-<!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
--->
+As received: I will be taking off the front panel and dust filter, swapping some fans around, flipping the HDD bays around so I can insert drive from the front/outside of the case instead of having to disassemble/remove the fans inside in order to add/remove HDD's from the cage.
+![[IMG_20241207_151418_040 1.jpg]]
 
-## Step 1: Enable GitHub Pages
 
-_Welcome to GitHub Pages and Jekyll :tada:!_
+Remove all fans and internal fan bracket:
+![[IMG_20241207_154143_397.jpg]]
 
-The first step is to enable GitHub Pages on this [repository](https://docs.github.com/en/get-started/quickstart/github-glossary#repository). When you enable GitHub Pages on a repository, GitHub takes the content that's on the main branch and publishes a website based on its contents.
 
-### :keyboard: Activity: Enable GitHub Pages
+I inserted a couple of dead HDD's to show original orientation compared to new orientation. Note the purple tabs, these are what you squeeze/pull to remove HDD's, and are whick 'click' in to secure the drives in the bays. Note: There are some small screws (circled in red) needing to be removed. After flipping the cages, the holes dont line up to add them back, I haven't had any issues with this as the cages snap into place. 
+The green circle is one of the 'buttons' you need to press to remove each cage, each cage has two buttons to depress at the same time. This can be fiddly, good luck.
+![[IMG_20241207_160239_627 2.jpg]]
 
-1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
-1. Under your repository name, click **Settings**.
-1. Click **Pages** in the **Code and automation** section.
-1. Ensure "Deploy from a branch" is selected from the **Source** drop-down menu, and then select `main` from the **Branch** drop-down menu.
-1. Click the **Save** button.
-1. Wait about _one minute_ then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
-   > Turning on GitHub Pages creates a deployment of your repository. GitHub Actions may take up to a minute to respond while waiting for the deployment. Future steps will be about 20 seconds; this step is slower.
-   > **Note**: In the **Pages** of **Settings**, the **Visit site** button will appear at the top. Click the button to see your GitHub Pages site.
 
-<footer>
+Remove the first cage, each one will have 4 pieces of metal that fit into small holes. These are what holds the cage into the overall frame of the chassis. There are 2 sets of holes they can be in. I chose the set that would give me the most internal room, with the drive cages sticking a little bit farther outside. This gives me more wiggle room for plugging in power and data cables inside.
+![[IMG_20241207_160801_224.jpg]]
 
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
 
----
+Here is the original cage, with the hard drive still in the exact orientation from earlier, with the cage installed upside down and backward.
+![[IMG_20241207_161203_511.jpg]]
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
 
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+Remove the HDD, and turn it around so the interface (power/SATA) is inside, pictured below. The drive now inserts from the front, and plugs into the back. However, I will show you a couple problems that I haven't found anyone else mentioning when you do this, and how to solve it.
+![[IMG_20241207_161428_637.jpg]]
 
-</footer>
+
+So here's a problem, the metal flange outlined in red is preventing the HDD to fully seat into the drive cage, also its preventing the top slotted HDD to be able to be plugged into power and SATA.
+![[problem.jpg]]
+
+
+Grab a pair of pliers or tin snips or a dremel cutting disk. I chose pliers. Bend the metal flange up and out of the way. It wont be pretty, it wont be perfect, but it'll work. If you bend the cage too much, itll have  some trouble fitting back into the case, so just bend it so it fits. Mine is super tight, which is fine for me, just helps the cage not move (remember we took the screws out and they wont go back in).
+![[IMG_20241207_161732_128.jpg]]
+
+
+After bending, and forcing the cage back in, we now have access to the power/SATA connectors to every drive, and it snaps into the cage fully and properly! Both the top slot and bottom slot now work perfectly.
+![[nice.jpg]]
+![[IMG_20241207_162322_845 1.jpg]]
+
+
+So now you have a decision. Notice below how the HDD's are oriented. The left one is upside down and hanging (original reddit statement was to flip the cage around and upside down or it wont fit), the right side has the HDD's how I want them, metal side up. You can do whatever you want, but all 3 cages need to be oriented the same way or they might not fit.
+If you want the left-side cage orientation, install the left cage first and work your way right.
+
+IMPORTANT: If you want the right side orientation (metal side of HDD up) then the RIGHT cage (by the power button and USB's) MUST be installed first. There is a lip on the drive cage (where the screw driver is pointing) that has to fit inside of the front of the case.
+If you leave this cage until last, it will not fit without damaging the area around the power button.
+![[IMG_20241207_163855_218.jpg]]
+
+
+I chose metal side up, and this is what you should see after installing all cages. I put my 2 demonstration drives in the top and bottom slot to show both fitting.
+CONGRATS, you are now done. Enjoy your server!
+![[IMG_20241207_165112_236 2.jpg]]
